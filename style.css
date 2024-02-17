@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald",sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navback {
+    background-color: #1C1E32;
+    color: #8486A0;
+    height: 70px;
+}
+
+@media screen and (max-width: 910px) {
+    .navback {
+      display: none;
+    }
+}
+
+input[type='date'] {
+    padding: 10px 8px;
+}
+
+input[type='time'] {
+    padding: 10px 8px;
+}
+
+.reserveBtn {
+    padding: 15px 18px;
+    color: white;
+    background-color: #F77D0A;
+    border: none;
+}
+
+.card {
+    height: 100px ;
+    /* width: 200px; */
+    background-color: gray;
+    border: none;
+    border-radius: 0;
+}
